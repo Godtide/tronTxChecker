@@ -1,8 +1,12 @@
+
+const config = require('../config/config')
+
 const TronWeb = require('tronweb')
+
 const tronWeb = new TronWeb({
     fullHost: 'https://api.trongrid.io',
-    headers: { "TRON-PRO-API-KEY": 'ff4a1419-adfe-4f44-93f3-482f42155cdf' },
-    privateKey: 'c6650559ee9d7fc5337f8a76ff0864248da8adc41d23805770dcbe266a231930'
+    headers: config.Headers,
+    privateKey: config.privateKey
 })
 
 
