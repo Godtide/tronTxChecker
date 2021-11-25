@@ -26,4 +26,4 @@ Returns transactions details by transactionId
 ###  /
 - http://localhost:3000
 
-###Recommendable to use [https://github.com/Godtide/tronTxChecker/commit/f4697c42485d8d3da8a1452c0b3d8729348236b2](this commit) to set up the project
+###Recommendable to use [this commit](https://github.com/Godtide/tronTxChecker/commit/f4697c42485d8d3da8a1452c0b3d8729348236b2) to set up the project
